@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: beige;
+            color: black;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            border: 2px solid red;
+        }
+
+        .colum {
+            flex-direction: column;
+            margin-right: 10px;
+            flex: 1;
+        }
+
+        .colum div {
+            background-color: aqua;
+            font-size: 1.4rem;
+            padding: 5px 0;
+            border: 2px solid green;
+        }
+
+        .card {
+            margin-left: 10px
+        }
+
+        .image {
+            background: grey;
+            flex: 1;
+        }
+
+        .image img {
+            display: block;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="image.jpg">
+        </div>
+        <div class="colum">
+            <div>
+                Github
+            </div>
+            <div>
+                Libguides:
+            </div>
+            <div>
+                Instagram:
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
